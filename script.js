@@ -2,7 +2,7 @@ console.log('js ok')
 
 // stampo in consolle da 1 a 100
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 0; i <= 99; i++) {
 const numero = i + 1
 // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 if( numero % 3 === 0 && numero % 5 === 0 ){
@@ -22,7 +22,6 @@ const cella = document.createElement('div')
 // inserisco elemento numero
 cella.append(numero)
 // stampo
-console.log(numero, cella)
 
 }
 
