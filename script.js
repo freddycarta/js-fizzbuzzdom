@@ -17,9 +17,11 @@ if( numero % 3 === 0 && numero % 5 === 0 ){
     // sennò numero normale i + 1
     console.log(numero)}
 
+    // creo elemento nel dom
 const cella = document.createElement('div')
-
+// inserisco elemento numero
 cella.append(numero)
+// stampo
 console.log(numero, cella)
 
 }
